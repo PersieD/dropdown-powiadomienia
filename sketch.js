@@ -144,10 +144,8 @@ function setupTickButtons() {
       w: btnWidth,
       h: btnHeight,
       onClick: () => {
-    
-       setTimeout(()=>{
         window.open("https://kalar-png.github.io/regulamin-robot/","_self");
-      },2000);
+      }
     }
   ];
 }
