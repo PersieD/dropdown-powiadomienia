@@ -135,6 +135,7 @@ function setupTickButtons() {
       h: btnHeight,
       onClick: () => {
         ticksVisible[0] = !ticksVisible[0];
+        checkIfBothTicksVisible();
       }
     },
     {
@@ -143,7 +144,8 @@ function setupTickButtons() {
       w: btnWidth,
       h: btnHeight,
       onClick: () => {
-        //ticksVisible[1] = !ticksVisible[1];
+        ticksVisible[1] = !ticksVisible[1];
+        checkIfBothTicksVisible();
         setTimeout(()=>{
         window.open("https://kalar-png.github.io/regulamin-robot/","_self");
       },2000);
