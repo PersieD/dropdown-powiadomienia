@@ -143,11 +143,10 @@ function setupTickButtons() {
       w: btnWidth,
       h: btnHeight,
       onClick: () => {
-         ticksVisible[1] = !ticksVisible[1];
-        setTimeout()) => {
+        
         window.open("https://kalar-png.github.io/regulamin-robot/","_self");
-           }, 3000);
-    }
+           
+    
     }
   ];
 }
