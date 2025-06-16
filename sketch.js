@@ -135,11 +135,10 @@ function setupTickButtons() {
       h: btnHeight,
       onClick: () => {
         ticksVisible[0] = !ticksVisible[0];
-        checkIfBothTicksVisible();
       }
     },
     {
-     x: 535 * 4,
+      x: 535 * 4,
       y: 330 * 4,
       w: btnWidth,
       h: btnHeight,
