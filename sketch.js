@@ -144,7 +144,7 @@ function setupTickButtons() {
       h: btnHeight,
       onClick: () => {
         ticksVisible[1] = !ticksVisible[1];
-        window.open window.open( "https://kalar-png.github.io/regulamin-robot/","_self");
+       window.open( "https://kalar-png.github.io/regulamin-robot/","_self");
       }
     }
   ];
